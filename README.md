@@ -1,4 +1,4 @@
-# ABOUT
+# SOBRE
 
 ### Implementação em C do tipo abstrato de dados Pilha conforme as seguintes especificações: 
 
