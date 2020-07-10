@@ -19,6 +19,6 @@ int empilha (int x, tad_pilha p) {
 // a funcao retorna 1 se a operacao foi bem sucedida e 0 caso contrario
 int desempilha (int t, tad_pilha p) {
 
-  - // retorna em t o elemento do topo da pilha, sem desempilhar
+  - // retorna em t o elemento do topo da pilha, sem desempilhar\n
 // a funcao retorna 1 se a operacao foi bem sucedida e 0 caso contrario
 int topo (int t, tad_pilha p) 
