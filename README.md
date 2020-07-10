@@ -2,10 +2,10 @@
 
 Implementação em C do tipo abstrato de dados Pilha conforme as seguintes especificações: 
 
-  1 // faz a inicializa ̧cão do TAD pilha
+  1º // faz a inicializa ̧cão do TAD pilha
   - void inicializa_pilha (tad_pilha p) {
 
-  2 // retorna 1 se a pilha p esta vazia e 0 caso contrario
+  2º // retorna 1 se a pilha p esta vazia e 0 caso contrario
   - int pilha_vazia (tad_pilha p) {
 
   - // retorna o numero de elementos da pilha p
