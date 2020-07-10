@@ -24,11 +24,12 @@ Implementação em C do tipo abstrato de dados Pilha conforme as seguintes espec
   - int topo (int t, tad_pilha p) 
 
 A estrutura de dados considera uma struct com um inteiro para o índice do topo da pilha e um vetor para guardar os dados:
+    ```
     typedef struct tad_pilha {
             int topo;
             int v[MAX];
     } tad_pilha
-    
+    ```
 # COMO RODAR
  Pela linha de comando, basta utilizar o makefile:
  - make -> compila
