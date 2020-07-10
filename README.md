@@ -1,6 +1,6 @@
 # ABOUT
 
-##Implementação em C do tipo abstrato de dados Pilha conforme as seguintes especificações: 
+### Implementação em C do tipo abstrato de dados Pilha conforme as seguintes especificações: 
 
   // faz a inicializa ̧cão do TAD pilha
   - void inicializa_pilha (tad_pilha p) {
@@ -21,7 +21,7 @@
   - int topo (int t, tad_pilha p) 
   
 
-##A estrutura de dados considera uma struct com um inteiro para o índice do topo da pilha e um vetor para guardar os dados:
+### A estrutura de dados considera uma struct com um inteiro para o índice do topo da pilha e um vetor para guardar os dados:
 ```
     typedef struct tad_pilha {
             int topo;
@@ -30,9 +30,9 @@
 ```
 
 # COMO RODAR
-##Pela linha de comando, basta utilizar o makefile:
+### Pela linha de comando, basta utilizar o makefile:
  - make -> compila
  - make run -> compila, caso não esteja compilado, e executa
  - make clean -> limpa todos os arquivos objetos e o executável, deixando apenas o arquivo .c
  
-##A execulçao do código roda uma main que testa todas as funções implementadas. 
+### A execulçao do código roda uma main que testa todas as funções implementadas. 
